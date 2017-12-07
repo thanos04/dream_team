@@ -1,0 +1,53 @@
+
+Flask extensions
+=================
+
+Flask-SQLAlchemy - pip install flask-sqlalchemy 
+
+This will allow us to use SQLAlchemy, a useful tool for SQL use with Python. 
+SQLAlchemy is an Object Relational Mapper (ORM), which means that it connects the objects of an 
+application to tables in a relational database management system. These objects can be stored in 
+the database and accessed without the need to write raw SQL. This is convenient because it simplifies 
+queries that may have been complex if written in raw SQL. Additionally, it reduces the risk of SQL 
+injection attacks since we are not dealing with the input of raw SQL.
+
+
+MySQL-Python - pip install mysql-python
+
+This is a Python interface to MySQL. It will help us connect the MySQL database to the app.
+
+
+Flask-Login - pip install flask-login
+
+User management - handles logging in, logging out, and user sessions. 
+
+
+Flask-Migrate - pip install flask-migrate
+
+Handles the database migrations using Alembic, a lightweight database migration tool. Alembic emits ALTER statements to a database 
+thus implememting changes made to the models. It also auto-generates minimalistic migration scripts, which may be complex to write.
+
+
+Flask-WTF - pip install Flask-WTF
+
+Allow us to create forms that are secure (thanks to CSRF protection and reCAPTCHA support).
+
+
+Flask-Bootstrap - pip install flask-bootstrap
+
+
+Uses its wtf and utils libraries. The wtf library will allow us to quickly generate forms in the templates based on the forms in the forms.py file. The utils library will allow us to display the flash messages we set earlier to give feedback to the user.
+
+
+Flask-Testing - pip install Flask-Testing
+
+We will be writing unit tests. Unit tests are written to test small, individual, and fairly isolated units of code, such as functions. 
+We will make use of Flask-Testing, an extension that provides unit testing utilities for Flask.
+
+
+
+
+
+
+
+
